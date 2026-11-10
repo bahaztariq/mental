@@ -1,0 +1,29 @@
+[project]
+name = "mental"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bahaztariq", email = "bahaztariq@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "kagglehub>=1.0.3",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pydantic>=2.14.3",
+    "pytorch",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "tensorflow",
+]
+
+[project.scripts]
+mental = "mental:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
