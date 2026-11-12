@@ -107,3 +107,9 @@ Le projet est strictement pédagogique. Le modèle ne doit jamais être présent
   * Lisibilité et organisation : Produire un code clair, bien structuré, et facile à maintenir.  
   * Performance computationnelle : Optimiser l'efficacité du code pour réduire le temps d'exécution et l'utilisation des ressources.  
   * Gestion des erreurs et robustesse : Produire un code robuste capable de gérer les erreurs et les inputs incorrects.
+
+## Résumé final
+
+- Analyse exploratoire terminée sur le dataset étudiant.
+- Pipeline de prétraitement préparé pour le split train/test, l’encodage et la normalisation.
+- Modèle de référence entraîné puis optimisé et conservé pour la suite du projet.
