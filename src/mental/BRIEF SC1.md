@@ -40,7 +40,7 @@ Le projet est strictement pédagogique. Le modèle ne doit jamais être présent
 
 **Chaque décision de nettoyage doit être justifiée.**
 
-### **Étape 3 — Entraînement et comparaison des modèles**
+#### **Étape 3 — Entraînement et comparaison des modèles**
 
 * Entraîner au moins 3 modèles de classification.  
 * Utiliser les mêmes données d’entraînement pour les comparer.  
