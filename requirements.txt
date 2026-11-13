@@ -1,0 +1,21 @@
+# Core Data Science & Machine Learning
+numpy>=2.0.0
+pandas>=2.0.0
+scikit-learn>=1.5.0
+imbalanced-learn>=0.12.0
+joblib>=1.4.0
+
+# Data Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Web Application
+streamlit>=1.35.0
+
+# Utilities & Validation
+pydantic>=2.0.0
+kagglehub>=0.2.0
+
+# Development & Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
