@@ -1,0 +1,53 @@
+{
+  "accuracy": 0.7625,
+  "precision_macro": 0.7611685416033241,
+  "recall_macro": 0.761883541295306,
+  "f1_macro": 0.7614990659928532,
+  "roc_auc_ovr": 0.8803060233591401,
+  "confusion_matrix": [
+    [
+      109,
+      22,
+      1
+    ],
+    [
+      23,
+      84,
+      25
+    ],
+    [
+      0,
+      24,
+      112
+    ]
+  ],
+  "classes": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "per_class": {
+    "Low": {
+      "precision": 0.8257575757575758,
+      "recall": 0.8257575757575758,
+      "f1": 0.8257575757575758,
+      "support": 132
+    },
+    "Medium": {
+      "precision": 0.6461538461538462,
+      "recall": 0.6363636363636364,
+      "f1": 0.6412213740458015,
+      "support": 132
+    },
+    "High": {
+      "precision": 0.8115942028985508,
+      "recall": 0.8235294117647058,
+      "f1": 0.8175182481751825,
+      "support": 136
+    }
+  },
+  "model": "CalibratedClassifierCV(LinearSVC)",
+  "cv_f1_macro": 0.758,
+  "n_train": 1600,
+  "n_test": 400
+}
