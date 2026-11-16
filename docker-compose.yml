@@ -36,8 +36,8 @@ services:
       - PYTHONPATH=/opt/project:/opt/project/src
     volumes:
       - ./dags:/opt/airflow/dags
-      - ./logs:/opt/airflow/logs
-      - ./plugins:/opt/airflow/plugins
+      - airflow_logs:/opt/airflow/logs
+      - airflow_plugins:/opt/airflow/plugins
       - .:/opt/project
     command: >
       bash -c "
@@ -51,3 +51,7 @@ services:
 networks:
   mental_net:
     driver: bridge
+
+volumes:
+  airflow_logs:
+  airflow_plugins:
